@@ -22,3 +22,10 @@ h1.merge(h2) do |key, old, new|
 	end
 end
 
+# additionally you can use ternary notation as well 
+#
+
+h1.merge(h2) {|k,o,n| o < n ? o : n } 
+
+# ? then 
+# : otherwise, else 
