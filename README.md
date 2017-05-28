@@ -1,4 +1,4 @@
-#What is Ruby? 
+What is Ruby? 
 
 Ruby is a programming languge created in 1995 by Yukihiro "Matz" Matsumoto with a syntax like Perl, Python and Smalltalk.
 
@@ -6,7 +6,7 @@ Ruby is a programming languge created in 1995 by Yukihiro "Matz" Matsumoto with 
 	- It is not a compiled language like (C++, Java, Visual Basic)
 	- It is an interpreted Language, requires Ruby interpreter 
 
-##Why Ruby? 
+Why Ruby? 
 
 	- Fully Object Oriented 
 	- Almost everything is an object in Ruby 
@@ -19,6 +19,8 @@ Ruby is a programming languge created in 1995 by Yukihiro "Matz" Matsumoto with 
 	- Pleasure working with 
 	- Multipurpose language
 
-## Doco
+Documentation: 
+
 http://www.ruby-doc.org/
+
 http://ruby-lang.org/ 
