@@ -30,4 +30,7 @@ end
 
 
 
-
+# x = 0 
+# puts x +=2 while x < 100 
+# y = 3245
+# puts y /= 2 until y <= 1
