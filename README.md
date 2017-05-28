@@ -24,3 +24,45 @@ Documentation:
 http://www.ruby-doc.org/
 
 http://ruby-lang.org/ 
+
+
+Ruby Objects:
+
+	- Objects
+	- Variables
+	- Integers
+	- Floats 
+	- Strings
+	- Arrays 
+	- Array Methods
+	- Hashes
+	- Symbols 
+	- Booleans
+	- Ranges 
+	- Constants 
+
+Control Structures: 
+
+	- if else elsif 
+	- unless
+	- case 
+	- loops 
+	- iterators 
+
+Code Blocks: 
+
+	- find
+	- merge
+	- collect
+	- sort
+	- inject
+
+Methods:
+
+	- variable scope
+	- arguments
+	- args default values 
+	- returning values 
+	- operators as methods 
+
+
