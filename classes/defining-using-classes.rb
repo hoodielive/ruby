@@ -1,20 +1,20 @@
 #!/usr/bin/env ruby
 #
 
-#class SomeName (needs to begin with Capital letter or any proceeding should be camelcase 
-#	... 
+#class SomeName (needs to begin with Capital letter or any proceeding should be camelcase
+#	...
 #end
 
 class Animal
 
 	def make_noise
-		"Moo!" 
+		"Moo!"
 	end
 
 end
 
-#Animal.new 
+#Animal.new
 
-animal = Animal.new 
+animal = Animal.new
 
 animal.make_noise
