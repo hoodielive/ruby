@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 # Getters and Setters
+# Readers and Writers are setters and getters - Notice how the first method sets the value while the other returns it
 
 class Animal
     def noise=(noise)
