@@ -1,5 +1,6 @@
 class HashSelector 
 
+	# Hash Selector Logic 
 	def initalize(hash)
 	  @hash = hash 
 	end 
