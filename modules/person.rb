@@ -20,7 +20,7 @@ end
 
 class Teacher
     include ContactInfo
-    attr_accessor :lesson_plans 
+    attr_accessor :lesson_plans
 end
 
 class Student < Person
