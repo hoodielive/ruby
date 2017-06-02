@@ -15,4 +15,4 @@ person_instance.name = 'Someone'
 person_instance.age = '33'
 person_instance.gender = 'male'
 
-puts person_instance.name person_instance.age person_instance.gender
+puts person_instance.name, person_instance.age, person_instance.gender
