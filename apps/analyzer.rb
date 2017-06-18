@@ -1,4 +1,6 @@
 #!/usr/bin/env ruby 
+load "count_characters.rb" 
+
 # character count (cc), cc excluding spaces, line count, word count, sentence count, paragraph count, avg num of wps w/paragraph 
 
 line_count = 0 
@@ -24,3 +26,5 @@ line_count = lines.size
 text = lines.join 
 
 puts "#{line_count} lines" 
+
+countshih
