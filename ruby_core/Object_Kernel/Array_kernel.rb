@@ -10,3 +10,5 @@ puts String.methods.sort
 puts String.respond_to?(:strip)
 puts string.respond_to?(:strip)
 puts string.respond_to?(:stripes)
+puts string.instance_of?(String)
+puts string.instance_of?(Array)
