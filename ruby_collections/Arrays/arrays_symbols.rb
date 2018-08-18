@@ -1,1 +1,3 @@
-c = %i(a b c); puts c
+c = %i(a b c)
+
+puts c
