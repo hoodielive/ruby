@@ -14,24 +14,25 @@ def add_list_item
 	return hash 
 end
 
+def print_separator(character="-") 
+	puts character * 80
+end
+
 def print_list(list) 
 	puts "List: #{list["name"]}" 
-	puts "----"
+	print_separator
 
 	list["items"].each do |item|
 		puts "Item: " + item["name"] 
-		puts "----"
+	  print_separator
 	end
 end
 
 
 list = create_list() 
 
-puts list.inspect 
 
 #puts add_list_item().inspect
 
 list['items'].push(add_list_item()) 
-
-puts list.inspect 
-#print_list(list)
+print_list(list)
