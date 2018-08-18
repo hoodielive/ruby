@@ -1,0 +1,7 @@
+# Logfile created on 2018-08-18 12:25:43 -0400 by logger.rb/61378
+I, [2018-08-18T12:25:43.863459 #20489]  INFO -- : [Larry] Deposited 1000
+I, [2018-08-18T12:25:43.863493 #20489]  INFO -- : [Larry] withdrew 50
+I, [2018-08-18T12:26:00.988921 #20569]  INFO -- : [Larry] Deposited 1000
+I, [2018-08-18T12:26:00.988994 #20569]  INFO -- : [Larry] withdrew 50
+I, [2018-08-18T12:26:42.037378 #20670]  INFO -- : [Larry] Deposited 1000
+I, [2018-08-18T12:26:42.037466 #20670]  INFO -- : [Larry] withdrew 50
