@@ -1,0 +1,15 @@
+Idioms 
+
+- the peculiar character or genius of a language 
+
+ex. Crossing the line => familiarity makes you aware of connotation | colloquialisms 
+
+
+- small patterns 
+
+- ruby does NOT share python's philosophy, that there should be one and only one way to do a thing 
+- ruby has a trillion ways of doing the same thing.. 
+- ruby allows you to have a freedom of expression in your code, but that is not to say that it does not cost
+- ruby will mitigate some of the cost however, :) 
+
+
