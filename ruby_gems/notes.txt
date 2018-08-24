@@ -1,0 +1,12 @@
+Ruby Gems
+
+rubygems.org 
+ruby-toolbox.com
+
+install gem 
+  - gem install money 
+  - gem install money -V (verbose) 
+  - gem list (see all gems installed on sys) 
+  - gem install gem.ver.gem (gem download and install)
+  
+Read doco on gem (money) 

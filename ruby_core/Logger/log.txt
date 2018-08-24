@@ -1,0 +1,3 @@
+# Logfile created on 2018-08-18 12:21:01 -0400 by logger.rb/61378
+I, [2018-08-18T12:21:01.134784 #20290]  INFO -- : This is a test!
+D, [2018-08-18T12:21:01.134814 #20290] DEBUG -- : Lets start bugging you  - walking dead!
