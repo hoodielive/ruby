@@ -11,8 +11,4 @@ b = {
 	profession: 'Python Developer'
 } 
 
-
 b.each { |k,v| puts "#{k} #{v}" } 
-
-
-
