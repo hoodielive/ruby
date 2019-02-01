@@ -3,3 +3,5 @@
 for i in 1..10
   puts i
 end
+
+for i in 1..5; puts i; puts i * 2; end
