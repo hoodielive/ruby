@@ -1,49 +1,4 @@
-class Movie
-  def initialize(title, rank)
-    @title = title
-    @rank = rank
-  end
-
-  attr_reader :rank
-  attr_accessor :title
-
-  def normalized_rank
-    @rank / 10
-  end
-
-  def thumbs_up
-    @rank += 1
-  end
-
-  def thumbs_down
-    @rank -= 1
-  end
-
-  def to_s
-    "#{title} is the title and #{rank} is the rank."
-  end
-end
-
-class Playlist 
-  def initialize(name)
-    @name = name 
-    @movies = []
-  end
-
-  def add_movie(movie) 
-    @movies << movie
-  end
-
-  def play()
-    puts "#{@name}'s playlist'"
-    puts @movies
-
-    @movies.each do |movie|
-      movie.thumbs_up
-      puts movie
-    end
-  end
-end
+require_relative 'playlist'
 
 movie1 = Movie.new("goonies", 10)
 movie2 = Movie.new("ghostbusters", 9)
@@ -56,3 +11,9 @@ playlist1.add_movie(movie2)
 playlist1.add_movie(movie3)
 playlist1.play
 
+
+playlist2 = Playlist.new("Fozzie")
+playlist2.add_movie(movie3)
+movie4 = Movie.new("gremlins", 15)
+playlist2.add_movie(movie4)
+playlist2.play
