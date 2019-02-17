@@ -26,7 +26,6 @@ class Playlist
     @movies << movie
   end
 
-
   def play(viewings)
     puts "#{@name}'s playlist"
     puts @movies.sort
