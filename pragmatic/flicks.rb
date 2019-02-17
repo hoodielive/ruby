@@ -5,15 +5,16 @@ movie2 = Movie.new("ghostbusters", 9)
 movie3 = Movie.new("goldfinger", 8)
 movies = [movie1, movie2, movie3]
 
-playlist1 = Playlist.new("Kermit")
-playlist1.add_movie(movie1)
-playlist1.add_movie(movie2)
-playlist1.add_movie(movie3)
-playlist1.play(3)
-playlist1.print_stats
+playlist = Playlist.new("Kermit")
+playlist.add_movie(movie1)
+playlist.add_movie(movie2)
+playlist.add_movie(movie3)
+playlist.play(3)
+playlist.print_stats
 
-#playlist2 = Playlist.new("Fozzie")
-#playlist2.add_movie(movie3)
-#movie4 = Movie.new("gremlins", 15)
-#playlist2.add_movie(movie4)
-#playlist2.play(3)
+puts "How many viewings?"
+answer = gets.chomp
+puts "Enjoy your #{answer} viewing..."
+
+playlist.play(answer.to_i)
+playlist.print_stats
