@@ -408,3 +408,49 @@ Processing by DemoController#hello as HTML
 Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:54:01 -0500
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/master/.rbenv/versions/2.6.0-dev/lib/ruby/gems/2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:55:38 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 21:01:09 -0500
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/master/.rbenv/versions/2.6.0-dev/lib/ruby/gems/2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2019-02-19 21:01:13 -0500
+Processing by DemoController#index as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 21:01:32 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 21:01:36 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.5ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+

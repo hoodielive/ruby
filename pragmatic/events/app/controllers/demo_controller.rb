@@ -6,6 +6,7 @@ class DemoController < ApplicationController
   end
 
   def hello
+    @array = ['some', 'dummy', 'data']
     render('hello')
   end
 
