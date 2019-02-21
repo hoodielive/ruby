@@ -1,4 +1,9 @@
+require 'forwardable'
+
 class User
+
+  extend Forwardable
+
   attr_reader :account
   def initialize(account)
     @account = account
