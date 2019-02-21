@@ -5,7 +5,7 @@ module Network
   end
   class Ip
     def initialize(p1, p2, p3, p4)
-      @p1 = pl; @p2 = p2; @p3 = p3; @p4 = p4
+      @p1 = p1; @p2 = p2; @p3 = p3; @p4 = p4
     end
     def to_s
       "#{@p1}.#{@p2}.#{@p3}.#{@p4}"
@@ -15,3 +15,8 @@ module Network
     end
   end
 end
+
+puts Network::PROTOCOLS
+puts Network.is_a_protocol? :ftp
+ip = Network::Ip.new 192, 168, 1, 1
+puts ip
