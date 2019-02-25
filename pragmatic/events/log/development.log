@@ -250,3 +250,207 @@ Processing by DemoController#index as HTML
 Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/demo/index" for 127.0.0.1 at 2019-02-19 20:32:04 -0500
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/master/.rbenv/versions/2.6.0-dev/lib/ruby/gems/2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by DemoController#index as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.5ms)
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/other_hello" for 127.0.0.1 at 2019-02-19 20:32:10 -0500
+Processing by DemoController#other_hello as HTML
+Redirected to http://localhost:3000/
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2019-02-19 20:32:10 -0500
+Processing by DemoController#index as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.3ms)
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:32:27 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (0.4ms)
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/youtube" for 127.0.0.1 at 2019-02-19 20:34:49 -0500
+Processing by DemoController#youtube as HTML
+Redirected to http://youtube.com
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:39:20 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.4ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:39:32 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:39:49 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.5ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:40:22 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.5ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:41:05 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.8ms)
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/master/Clones/ruby/pragmatic/events/app/views/demo/hello.html.erb:10: unterminated string meets end of file
+          end
+              ^
+/home/master/Clones/ruby/pragmatic/events/app/views/demo/hello.html.erb:10: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/demo/hello.html.erb:10: unterminated string meets end of file
+app/views/demo/hello.html.erb:10: syntax error, unexpected end-of-input, expecting ')'
+app/controllers/demo_controller.rb:9:in `hello'
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:41:45 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (198.7ms)
+Completed 500 Internal Server Error in 201ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `world' for #<#<Class:0x00007fccf80fb168>:0x00007fccf81ca580>):
+    2: 
+    3: <%=1 + 1 %>
+    4: <% target = "world" %> 
+    5: <%= "hello #{world}" %> 
+  
+app/views/demo/hello.html.erb:5:in `_app_views_demo_hello_html_erb__1484314810795141295_70259156338740'
+app/controllers/demo_controller.rb:9:in `hello'
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:42:07 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:42:28 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:43:56 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.8ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:43:58 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.8ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:45:14 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:45:39 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.6ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:45:41 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:46:00 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:46:04 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:54:01 -0500
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/master/.rbenv/versions/2.6.0-dev/lib/ruby/gems/2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 20:55:38 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 21:01:09 -0500
+  [1m[35m (0.3ms)[0m  [1m[35mSET NAMES utf8,  @@SESSION.sql_mode = CONCAT(CONCAT(@@sql_mode, ',STRICT_ALL_TABLES'), ',NO_AUTO_VALUE_ON_ZERO'),  @@SESSION.sql_auto_is_null = 0, @@SESSION.wait_timeout = 2147483[0m
+  ↳ /home/master/.rbenv/versions/2.6.0-dev/lib/ruby/gems/2.6.0/gems/activerecord-5.2.2/lib/active_record/log_subscriber.rb:98
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/index" for 127.0.0.1 at 2019-02-19 21:01:13 -0500
+Processing by DemoController#index as HTML
+  Rendering demo/index.html.erb
+  Rendered demo/index.html.erb (1.0ms)
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 21:01:32 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.7ms)
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo/hello" for 127.0.0.1 at 2019-02-19 21:01:36 -0500
+Processing by DemoController#hello as HTML
+  Rendering demo/hello.html.erb
+  Rendered demo/hello.html.erb (0.5ms)
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
