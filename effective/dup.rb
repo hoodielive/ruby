@@ -5,7 +5,7 @@
 
 class ValidatesConstructorArgument
   def initialize(potentially_invalid_array)
-    @potentially_invalid_array = potentially_invalid_array
+    @potentially_invalid_array = potentially_invalid_array.dup
     raise ArgumentError.new("The passed array is invalid") unless array_valid?
   end
 
@@ -21,3 +21,10 @@ class ValidatesConstructorArgument
     potentially_invalid_array.all? { |x| String === x }
   end
 end
+
+array = ["String", "string", "string"]
+vca = ValidatesConstructorArgument.new(array)
+
+array << 1
+p vca.transform
+
